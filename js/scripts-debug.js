@@ -143,7 +143,3 @@ $(document).ready(function () {
     });
 })(jQuery);
 
-/* Credeai ca gasesti ceva interesant aici? :)) 
- * Scrie si tu un comment mai jos cu cine crezi ca va castiga Cupa Mondiala.
- *   */
-/* :)) Nu privesc meciurile , dar daca tot sunt aici scriu un comentariu. :))  */
