@@ -1,0 +1,509 @@
+.highlight-upper-line {
+  width: 65px;
+  height: 3px;
+  background-color: #03a9f4; }
+
+/* START menu style */
+.logo a img {
+  position: relative;
+  float: left;
+  width: auto;
+  height: 40px;
+  margin: 25px 0;
+  display: block;
+  padding-left: 15px; }
+
+.tablet-mobile-logo {
+  display: none !important; }
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #head-mobile {
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#cssmenu {
+  font-family: "Work Sans", sans-serif;
+  background: #fff; }
+  #cssmenu #head-mobile {
+    display: none; }
+  #cssmenu ul {
+    padding-left: 55px;
+    padding-right: 55px;
+    float: right;
+    margin-bottom: 0; }
+    #cssmenu ul li {
+      float: left; }
+      #cssmenu ul li a {
+        padding: 30px 25px;
+        font-size: 21px;
+        letter-spacing: 1.1px;
+        text-decoration: none;
+        color: #08151b;
+        font-weight: 300; }
+        #cssmenu ul li a:hover {
+          letter-spacing: 0.5px;
+          font-weight: 500; }
+      #cssmenu ul li.desktop-menu-last a:hover {
+        letter-spacing: 0.58px !important;
+        font-weight: 500; }
+      #cssmenu ul li:hover a {
+        color: #08151b; }
+      #cssmenu ul li:hover ul {
+        left: auto; }
+        #cssmenu ul li:hover ul li {
+          height: 35px; }
+      #cssmenu ul li.active a {
+        letter-spacing: 0.5px;
+        font-weight: 500; }
+      #cssmenu ul li.has-sub a {
+        padding-right: 30px; }
+        #cssmenu ul li.has-sub a:after {
+          position: absolute;
+          top: 22px;
+          right: 11px;
+          width: 8px;
+          height: 2px;
+          display: block;
+          background: #ddd;
+          content: ''; }
+        #cssmenu ul li.has-sub a:before {
+          position: absolute;
+          top: 19px;
+          right: 14px;
+          display: block;
+          width: 2px;
+          height: 8px;
+          background: #ddd;
+          content: '';
+          -webkit-transition: all 0.25s ease;
+          -ms-transition: all 0.25s ease;
+          transition: all 0.25s ease; }
+      #cssmenu ul li.has-sub:hover a:before {
+        top: 23px;
+        height: 0; }
+
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+#cssmenu > ul > li:hover,
+#cssmenu ul li.active:hover,
+#cssmenu ul li.active,
+#cssmenu ul li.has-sub.active:hover {
+  -webkit-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  transition: background 0.3s ease; }
+
+.mobile-menu {
+  display: none !important; }
+
+/* END menu style */
+/* START Full width description div */
+.full-width-desc {
+  background-color: #03a9f4; }
+  .full-width-desc .row .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url("../images/logo-back-400x400.svg") no-repeat #03a9f4;
+    background-position: 0 60%; }
+  .full-width-desc h2 {
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.31;
+    letter-spacing: 1.5px;
+    text-align: left;
+    margin-bottom: 30px; }
+  .full-width-desc p {
+    font-family: "Work Sans", sans-serif;
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.57;
+    letter-spacing: 1.2px;
+    text-align: left; }
+
+/* END Full width description div */
+/* START carousel style */
+.carousel-inner .item {
+  background: #000;
+  text-align: center; }
+  .carousel-inner .item img {
+    min-height: 200px;
+    margin: 0 auto;
+    object-fit: cover; }
+  .carousel-inner .item .carousel-caption {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    left: 0%;
+    right: 0%; }
+    .carousel-inner .item .carousel-caption .container {
+      height: 100%; }
+    .carousel-inner .item .carousel-caption .carousel-caption-table {
+      height: 100%;
+      display: table;
+      position: relative; }
+      .carousel-inner .item .carousel-caption .carousel-caption-table .carousel-caption-table-cell {
+        vertical-align: middle;
+        display: table-cell; }
+        .carousel-inner .item .carousel-caption .carousel-caption-table .carousel-caption-table-cell h3 {
+          font-family: "Rubik", sans-serif;
+          font-size: 65px;
+          font-weight: bold;
+          color: #fff;
+          text-align: left;
+          line-height: 1.2;
+          margin-bottom: 25px; }
+        .carousel-inner .item .carousel-caption .carousel-caption-table .carousel-caption-table-cell p {
+          font-family: "Work Sans", sans-serif;
+          font-size: 23px;
+          line-height: 1.61;
+          text-align: left;
+          color: rgba(255, 255, 255, 0.8); }
+
+.progress-bar-wrapper {
+  background: #404040; }
+
+.transition-timer-carousel-progress-bar {
+  height: 5px;
+  background-color: #03a9f4;
+  /*progress bar color*/
+  width: 0;
+  margin: 0 0 0 0;
+  border: none;
+  z-index: 11;
+  position: relative; }
+
+.carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  opacity: 0.48;
+  background-color: #fff;
+  margin: 0 12px; }
+  .carousel-indicators li:hover, .carousel-indicators li.active {
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+    margin: 0 8.5px;
+    margin-bottom: -3px; }
+
+/* END carousel style */
+
+/*START three-row-desc*/
+/* Aici completeaza CSS */
+.three-row-container{
+  width:100%;
+  padding: 90px;
+}
+.three-row-container .row .container .row .three-row-desc h5{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.three-row-container .row .container .row .three-row-desc h5 a{
+  color:#03a9f4;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.three-row-container .row .container .row .three-row-desc h4{
+  padding-bottom: 10px;
+  
+}
+.three-row-container .row .container .row .three-row-desc h4 a{
+  font-weight: bold;
+  font-size: 27px;
+  text-align: left;
+  color: #08151b;
+  width: auto;
+  height: auto;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.21;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  
+}
+.three-row-container .row .container .row .three-row-desc img{
+  transition: all 0.5s;
+}
+.three-row-container .row .container .row .three-row-desc p{
+  width: auto;
+  height: auto;
+  font-family: "Work Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.58;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: rgba(8, 21, 27, 0.79);
+}
+.three-row-container .row .container .row .three-row-desc{
+  display: flex;   /* aici afisez div-urile pe randuri la aceeasi inaltime */
+  flex-wrap: wrap; /* , daca nu foloseam aceste doua proprietati div-urile nu ar fi fost afisare corect */
+}
+
+.three-row-container .row .container .row .three-row-desc .col-md-4:hover img{
+  box-shadow: 4px 4px 11px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.three-row-container .row .container .row .three-row-desc .col-md-4:hover h4 a{
+  text-decoration: underline;
+}
+/* END three-row-desc*/
+
+/* START BLUE ROW*/
+/* Aici completeaza CSS */
+.container-background {
+  background-color:#03a9f4;
+  height: 120px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  
+}
+.container-fluid .row {
+  height:100%;
+
+}
+.container-fluid .row .container{
+  height:100%;
+}
+.container-fluid .row .container .row{
+  height: 100%;
+}
+.container-fluid .row .container .row .container-section{
+  height: 100%;
+}
+.container-fluid .row .container .row .container-section .col-md-8 h2{
+  color:#fff;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 35px;
+  text-align: left;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.container-fluid .row .container .row .container-section{
+  height: 100%;
+}
+
+.container-fluid .row .container .row .container-section .col-md-8
+{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width:75%;
+}
+.container-fluid .row .container .row .container-section .col-md-4
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 24%;
+}
+.container-fluid .row .container .row .container-section .col-md-4 img{
+  /*animation: arrowAnimateOutHover 0.5s;*/
+  transition: all 0.5s;
+}
+/* Aici am implementat si varianta cu animatie , care face aproape acelasi lucru */
+/*
+@keyframes arrowAnimateOutHover{
+  from{
+    margin-left: 100px;
+  }
+  to{
+    margin-left: 0;
+  }
+}
+
+@keyframes arrowAnimeOnHover{
+  from{
+    margin-left:0;
+  }
+  to{
+    margin-left:100px;
+  }
+}*/
+.container-fluid:hover .row .container .row .container-section .col-md-4 img{
+  /*animation:arrowAnimeOnHover 0.5s ;*/
+  margin-left:100px;
+}
+/* END BLUE ROW*/
+
+/* START CASE section */
+
+.case-section-container {
+  margin-bottom: 90px; }
+  .case-section-container .case-section h5 {
+    padding-bottom: 10px;
+    padding-top: 20px; }
+    .case-section-container .case-section h5 a {
+      text-decoration: none;
+      font-family: "Work Sans", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-align: left;
+      color: #03a9f4; }
+  .case-section-container .case-section h4 {
+    padding-bottom: 10px; }
+    .case-section-container .case-section h4 a {
+      width: auto;
+      height: auto;
+      font-family: "Rubik", sans-serif;
+      font-size: 39px;
+      font-weight: bold;
+      line-height: 1.21;
+      letter-spacing: 1.3px;
+      text-align: left;
+      color: #08151b; }
+  .case-section-container .case-section p {
+    width: auto;
+    height: auto;
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.58;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: rgba(8, 21, 27, 0.79); }
+
+/*END CASE section */
+/* START MEET TEAM SECTION*/
+.meet-team-background {
+  width: 100%;
+  background-color: #edeff0;
+  padding: 5% 8%; }
+
+.highlight-upper-line {
+  width: 65px;
+  height: 3px;
+  background-color: #03a9f4; }
+
+.meet-team-section h3 {
+  width: auto;
+  height: auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: 1.2px;
+  text-align: left;
+  color: #08151b;
+  margin-bottom: 64px; }
+
+.slide-div {
+  margin-right: 25px;
+  -webkit-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
+
+.slide-div:hover {
+  opacity: 0.7;
+  cursor: pointer; }
+
+.slick-slide.slick-current .slide-div:hover {
+  opacity: 1; }
+
+.slick-slide:focus {
+  outline: none; }
+
+.slick-slide img:focus {
+  outline: none; }
+
+.slick-slider div h5 {
+  width: auto;
+  height: auto;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #08151b;
+  margin-top: 27px; }
+
+.slick-slider div p {
+  width: auto;
+  height: auto;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.58;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: rgba(8, 21, 27, 0.79);
+  margin: 0; }
+
+/* END OF MEET TEAM SECTION */
+/* START footer-section*/
+.footer-section {
+  background-color: #ffffff; }
+  .footer-section .col-md-8 img {
+    width: 220px; }
+  .footer-section .col-md-4 .col-md-6 p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: rgba(8, 21, 27, 0.5); }
+  .footer-section .col-md-4 .col-md-6 h5 {
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: left;
+    color: rgba(8, 21, 27, 0.79); }
+    .footer-section .col-md-4 .col-md-6 h5 a {
+      font-weight: 500;
+      font-family: "Work Sans", sans-serif;
+      font-size: 20px;
+      line-height: 1.7;
+      text-align: left;
+      color: rgba(8, 21, 27, 0.79); }
+
+.copyright-section .col-md-8:first-child p a {
+  text-decoration: none; }
+
+.copyright-section .col-md-8 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: rgba(8, 21, 27, 0.5); }
+  .copyright-section .col-md-8 p a {
+    color: unset; }
+
+.copyright-section .col-md-4 .col-md-6 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: rgba(8, 21, 27, 0.5);
+  margin-bottom: 37px; }
+  .copyright-section .col-md-4 .col-md-6 p a {
+    color: unset;
+    text-underline: none; }
+
+#footer-line {
+  margin-bottom: 30px;
+  border: solid 1px #cdcecf; }
+
+/* END footer-section */
+
+/* Acum ca ai vazut codul pana la capat, termina-ti treaba si fa-ti un code review :) */
